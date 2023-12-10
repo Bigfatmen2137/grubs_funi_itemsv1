@@ -1,0 +1,17 @@
+name: klucha_items
+version: "${VersionNumber}"
+main: me.grubasklucha.klucha_items
+description: Learning plugins pls dont shame
+author: grubasklucha_69
+website: none
+api-version: 1.19 # Specify the Spigot API version your plugin is built for
+
+commands:
+  test:
+    description: komenda testowa
+    usage: /test
+    permission: klucha_items.test
+  givefunnyitem:
+    description: gives funny items
+    usage: /givefunnyitem
+    permission: klucha_items.givefunnyitem
